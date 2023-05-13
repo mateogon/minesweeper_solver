@@ -2,8 +2,7 @@
 
 > A Minesweeper solver using PyAutoGUI. This solver is designed to solve the "Mines" Minesweeper game on Ubuntu. It currently supports a game grid size of 30x16. The solver automates the gameplay by analyzing the screen using PyAutoGUI and making strategic moves to uncover safe tiles.
 
-https://github.com/mateogon/minesweeper_solver/raw/master/extras/minesweeper.mkv
-![Minesweeper Solver Demo](https://github.com/mateogon/minesweeper_solver/raw/master/extras/minesweeper.mkv)
+https://github.com/mateogon/minesweeper_solver/blob/master/extras/example.webm
 
 ## Key Features
 
