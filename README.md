@@ -1,19 +1,23 @@
 # Minesweeper Solver
 
-> A Minesweeper solver using PyAutoGUI. This solver is designed to solve the "Mines" Minesweeper game on Ubuntu. It currently supports a game grid size of 30x16. The solver automates the gameplay by analyzing the screen using PyAutoGUI and making strategic moves to uncover safe tiles.
+> A Minesweeper solver using Xlib. This solver is designed to solve the "Mines" Minesweeper game on Ubuntu. It currently supports a game grid size of 30x16. The solver automates the gameplay by analyzing the screen using Xlib and making strategic moves to uncover safe tiles.
 
-[example.webm](https://github.com/mateogon/minesweeper_solver/assets/21253519/1c4628ae-80f5-410b-9a10-e3f0a6547a40)
+> New Version using Xlib ( 3 seconds )
+
+> Old Version using only PyAutoGui ( 47 seconds )
+> [example.webm](https://github.com/mateogon/minesweeper_solver/assets/21253519/1c4628ae-80f5-410b-9a10-e3f0a6547a40)
 
 ## Key Features
 
 - Automatically solves the "Mines" Minesweeper game on Ubuntu.
 - Supports a game grid size of 30x16.
-- Utilizes PyAutoGUI to analyze the screen and make strategic moves.
+- Utilizes Xlib to analyze the screen and make strategic moves.
 - Press "{" to start the solver and "}" to stop it.
 
 ## Requirements
 
 - Python 3.x
+- Xlib
 - PyAutoGUI
 - playsound
 - keyboard

@@ -10,8 +10,6 @@ import random
 from extras import time_function
 import os
 import timeit
-from PIL import Image, ImageDraw
-from io import BytesIO
 def timeit_wrapper(func):
     def wrapper(*args, **kwargs):
         start_time = timeit.default_timer()
